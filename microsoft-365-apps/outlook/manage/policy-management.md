@@ -111,6 +111,10 @@ The `AdditionalStorageProvidersAvailable` parameter on the **Set-OwaMailboxPolic
 
 The `OfflineEnabledWin` parameter on the **Set-OwaMailboxPolicy** cmdlet allows or blocks the new Outlook for Windows from being used offline. Check the syntax at [Set-OwaMailboxPolicy -OfflineEnabledWin](/powershell/module/exchange/set-owamailboxpolicy#-offlineenabledwin).
 
+## Configure if Outlook Data can be imported or exported using PST files
+
+The `OutlookDataFile` parameter on the **Set-OwaMailboxPolicy** cmdlet allows or blocks the new Outlook for Windows to store a local copy of your information in your computer or to allow you to access your previously downloaded or synchronized email messages, calendar information, contacts, and tasks from an existing Outlook Data File. Check the syntax at [Set-OwaMailboxPolicy -OutlookDataFile](/powershell/module/exchange/set-owamailboxpolicy#-outlookdatafile).
+
 ## Enable Location Suggestions
 
 The `PlacesEnabled` parameter on the **Set-OwaMailboxPolicy** cmdlet enables or disables Places in Outlook on the web. Places in Microsoft 365 lets users search, share, and map location details by using Bing. Check the syntax at [Set-OwaMailboxPolicy -PlacesEnabled](/powershell/module/exchange/set-owamailboxpolicy#-placesenabled).
